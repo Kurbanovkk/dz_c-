@@ -10,7 +10,7 @@ int value3 = int.Parse(Console.ReadLine());
 
 int max = value1;
 
-if (value1 > max) max = value1;
+
 if (value2 > max) max = value2;
 if (value3 > max) max = value3;
 
