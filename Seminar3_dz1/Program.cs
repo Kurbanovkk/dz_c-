@@ -3,11 +3,11 @@
 Console.Write("Введите пятизначное число: ");
 string palindrom = Console.ReadLine();
 
-/*if (palindrom[0] == palindrom[4] && palindrom[1] == palindrom[3])
-    Console.WriteLine("Ура это палиндром");
-else
-    System.Console.WriteLine("Это не палиндром");*/
+if (palindrom.Length > 5 || palindrom.Length < 0)
+    System.Console.WriteLine("Ошибка!!! ВВедите пожалуйста пятизначное число");
 
+else
+    Pali(palindrom);
 
 void Pali(string str)
 {
@@ -18,4 +18,4 @@ void Pali(string str)
 
 }
 
-Pali(palindrom);
+
