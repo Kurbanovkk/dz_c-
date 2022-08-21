@@ -53,7 +53,7 @@ for (int i = 0; i < line; i++)
 int minLine = 0;
 for (int i = 0; i < myArray.Length - 1; i++)
 {
-    if (myArray[i] > myArray[i + 1])
+    if (myArray[i] < myArray[i + 1])
     {
         minLine = i;
     }
